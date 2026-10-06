@@ -18,3 +18,4 @@ dmypy.json
 .ruff_cache/
 .editorconfig
 *.log
+.worktrees/
