@@ -1,0 +1,38 @@
+[
+  {
+    "surface": "parse_core",
+    "exit_code": 0,
+    "runtime_s": 0.285,
+    "rss_kb": 204620,
+    "stdout_tail": [
+      "{'surface': 'parse_core', 'iters': 5000, 'ok': 408, 'expected_errors': 4592, 'crashes': 0, 'hangs': 0}"
+    ]
+  },
+  {
+    "surface": "parse_safe_path",
+    "exit_code": 0,
+    "runtime_s": 0.301,
+    "rss_kb": 204620,
+    "stdout_tail": [
+      "{'surface': 'parse_safe_path', 'iters': 5000, 'ok': 5000, 'expected_errors': 0, 'crashes': 0, 'hangs': 0}"
+    ]
+  },
+  {
+    "surface": "format_path",
+    "exit_code": 0,
+    "runtime_s": 0.302,
+    "rss_kb": 204620,
+    "stdout_tail": [
+      "{'surface': 'format_path', 'iters': 5000, 'ok': 1283, 'expected_errors': 3717, 'crashes': 0, 'hangs': 0}"
+    ]
+  },
+  {
+    "surface": "invariant21",
+    "exit_code": 0,
+    "runtime_s": 2.735,
+    "rss_kb": 204620,
+    "stdout_tail": [
+      "{'surface': 'invariant21', 'iters': 5000, 'ok': 1742, 'expected_errors': 3258, 'crashes': 0, 'hangs': 0}"
+    ]
+  }
+]
